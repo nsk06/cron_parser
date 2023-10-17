@@ -17,6 +17,5 @@ The Cron Expression Parser is a Python script designed to parse and describe cro
 2. Go to the repo folder and execute the script with expression as command line argument.
 
     ```
-    python cron_parser.py "* * * * * /usr/bin/find"
-
+    python cron_parser.py "*/15 0 1,15 * 1-5 /usr/bin/find"
     ```
